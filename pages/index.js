@@ -1,8 +1,16 @@
 import Image from "next/image";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Karol Bajrulewicz | Blog | Home Page</title>
+        <meta
+          name="description"
+          value="Karol Kajrulewicz in his blog writes about the state of contemporary world and illustrates his short essays with paintings and illustrations of his own."
+        />
+      </Head>
       <main className="flex flex-col w-screen h-screen justify-start items-center">
         <Image
           src="/img/hajfa_2000.webp"
